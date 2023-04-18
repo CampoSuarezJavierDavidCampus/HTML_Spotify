@@ -25180,12 +25180,38 @@ body {
 .spotify-footer {
   grid-area: footer;
 }
+.spotify-footer-pie{
+    text-align: left;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    color: white;
+    width: 100%;
+    height: 90px;
+    border-width: 0px;
+
+    
+}
+.spotify-footer-registrate{
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    position: absolute;
+    right: 0%;
+    display: inline;
+    bottom: 25%;
+}
+.spotify-footer-ejemplo{
+    width: 400px;
+}
+
 .spotify-aside {
   grid-area: aside;
 }
+
 
 @media (min-width: 768px) {
   body {
     grid-template-areas: "header header header header" "main main main main" "main main main main" "main main main main" "main main main main" "footer footer footer footer";
   }
+  
 }/*# sourceMappingURL=styles.css.map */
